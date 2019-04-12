@@ -1,0 +1,36 @@
+
+.line{
+position: relative;
+top:0%;
+width: 5.6em;
+margin: 10 10 10 10;
+border-right: 2px solid #ff6f61;
+text-align: center;
+white-space: nowrap;
+overflow: hidden;
+display: block;
+transform-origin: left;
+
+
+}
+/* animattion */
+.welcome-message-anim{
+animation: typeMsg 2s steps(40) 2s 1 normal both,
+cursorAnim 500ms steps(40) infinite normal;
+}
+@keyframes typeMsg{
+from{
+    width: 0em;
+}
+to{
+    width: 10.5em;
+}
+}
+@keyframes cursorAnim{
+from{
+    border-right-color: #ff6f61;
+}
+to{
+    border-right-color: transparent;
+}
+}
