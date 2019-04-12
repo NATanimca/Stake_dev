@@ -16,7 +16,7 @@ transform-origin: left;
 /* animattion */
 .welcome-message-anim{
 animation: typeMsg 2s steps(40) 2s 1 normal both,
-cursorAnim 500ms steps(40) infinite normal;
+cursorAnim 1000ms steps(40) infinite normal;
 }
 @keyframes typeMsg{
 from{
